@@ -6,6 +6,11 @@ export default function App() {
     <View style={styles.container}>
       <Text>Open up App.js to start working on your app!</Text>
       <StatusBar style="auto" />
+      <View>
+        <Text>
+          Hello World
+        </Text>
+      </View>
     </View>
   );
 }
@@ -18,3 +23,4 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
+
